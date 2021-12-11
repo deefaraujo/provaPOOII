@@ -20,6 +20,9 @@ export function Header({ onOpenNewEventModal, onOpenNewDetailsModal }: HeaderPro
         <button type="button" onClick={onOpenNewDetailsModal}>
           Detalhes
         </button>
+        <button type="button">
+          Total
+        </button>
       </Content>
     </Container>
   );
